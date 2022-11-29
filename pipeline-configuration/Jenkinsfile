@@ -1,6 +1,7 @@
 version_control_checkout()
-
 on_change to: main, {
+  // Phase 1: source code
+  validate()
+  compile( for: 'production' )
   release()
 }
-
