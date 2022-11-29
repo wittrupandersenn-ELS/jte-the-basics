@@ -1,4 +1,3 @@
-package steps
 /*
  * Releases the compiled Java package using Maven Release plugin
  *
