@@ -1,7 +1,6 @@
 version_control_checkout()
 
 on_change to: main, {
-  build()
   release()
 }
 
