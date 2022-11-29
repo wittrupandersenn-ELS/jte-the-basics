@@ -1,10 +1,6 @@
 libraries{
-    merge = true
-    sonarqube
-    ansible
+    maven
 }
-
-allow_scm_jenkinsfile = true 
 
 keywords{
   develop = ~/^[Dd]ev(elop|elopment|eloper|)$/
