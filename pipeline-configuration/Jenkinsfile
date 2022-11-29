@@ -1,2 +1,5 @@
-build()
-release()
+on_change to: main, {
+  build()
+  release()
+}
+
